@@ -1,3 +1,7 @@
 get '/' do
-  'marutanm.github.com'
+  haml :index
+end
+
+get '/style.css' do
+  scss :style
 end
