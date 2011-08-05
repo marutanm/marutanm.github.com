@@ -1,40 +1,119 @@
-.ribbon {
+.ribbon-holder {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+#twitter {
+  overflow: hidden;
+  position: relative;
+  width: 150%;
   -moz-box-shadow: 0 0 1em #888;
-  -webkit-box-shadow: 0 0 1em #888; }
-  .ribbon #github {
-    width: 150%;
-    background-color: #a00;
-    overflow: hidden;
-    position: absolute;
-    right: -4em;
-    top: 15em;
-    -moz-transform: rotate(20deg);
-    -webkit-transform: rotate(20deg); }
-  .ribbon #twitter {
-    width: 60%;
-    background-color: #234;
-    overflow: hidden;
-    position: absolute;
-    left: -5em;
-    top: 3em;
-    -moz-transform: rotate(-30deg);
-    -webkit-transform: rotate(-30deg); }
-  .ribbon #coderwall {
-    width: 50%;
-    background-color: #aaa;
-    overflow: hidden;
-    position: absolute;
-    left: -4em;
-    bottom: 1.5em;
-    -moz-transform: rotate(18deg);
-    -webkit-transform: rotate(18deg); }
-  .ribbon a {
-    /*border: 1px solid #faa;*/
-    color: #fff;
-    display: block;
-    font: bold 81.25% 'Helvetiva Neue', Helvetica, Arial, sans-serif;
-    margin: 0.05em 0;
-    padding: 0.5em 3.5em;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: 0 0 0.5em #444; }
+  -webkit-box-shadow: 0 0 1em #888;
+  -moz-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  background-color: #3cf;
+  left: -5em;
+  top: 3em; }
+
+#github {
+  overflow: hidden;
+  position: relative;
+  width: 150%;
+  -moz-box-shadow: 0 0 1em #888;
+  -webkit-box-shadow: 0 0 1em #888;
+  -moz-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  background-color: #4183C4;
+  width: 150%;
+  right: 10em;
+  top: 30em; }
+
+#coderwall {
+  overflow: hidden;
+  position: relative;
+  width: 150%;
+  -moz-box-shadow: 0 0 1em #888;
+  -webkit-box-shadow: 0 0 1em #888;
+  -moz-transform: rotate(40deg);
+  -webkit-transform: rotate(40deg);
+  background-color: #5c6266;
+  left: -20em;
+  bottom: -20em; }
+
+#hatena {
+  overflow: hidden;
+  position: relative;
+  width: 150%;
+  -moz-box-shadow: 0 0 1em #888;
+  -webkit-box-shadow: 0 0 1em #888;
+  -moz-transform: rotate(-80deg);
+  -webkit-transform: rotate(-80deg);
+  background-color: #ccc;
+  width: 120%;
+  left: 3em;
+  top: 15em; }
+
+#flickr {
+  overflow: hidden;
+  position: relative;
+  width: 150%;
+  -moz-box-shadow: 0 0 1em #888;
+  -webkit-box-shadow: 0 0 1em #888;
+  -moz-transform: rotate(-5deg);
+  -webkit-transform: rotate(-5deg);
+  background-color: #ff0084;
+  width: 120%;
+  left: -1em;
+  top: 15em; }
+
+#diigo {
+  overflow: hidden;
+  position: relative;
+  width: 150%;
+  -moz-box-shadow: 0 0 1em #888;
+  -webkit-box-shadow: 0 0 1em #888;
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  background-color: #027;
+  right: -10em;
+  top: 5em; }
+
+#trunkly {
+  overflow: hidden;
+  position: relative;
+  width: 150%;
+  -moz-box-shadow: 0 0 1em #888;
+  -webkit-box-shadow: 0 0 1em #888;
+  -moz-transform: rotate(70deg);
+  -webkit-transform: rotate(70deg);
+  background-color: #4778a3;
+  width: 120%;
+  left: -20em;
+  top: 5em; }
+
+#tumblr {
+  overflow: hidden;
+  position: relative;
+  width: 150%;
+  -moz-box-shadow: 0 0 1em #888;
+  -webkit-box-shadow: 0 0 1em #888;
+  -moz-transform: rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  background-color: #3a5976;
+  width: 120%;
+  right: 2em;
+  top: 20em; }
+
+a {
+  /*border: 1px solid #faa;*/
+  color: #fff;
+  display: block;
+  font: bold 81.25% 'Helvetiva Neue', Helvetica, Arial, sans-serif;
+  margin: 0.05em 0;
+  padding: 0.5em 3.5em;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 0 0.5em #444; }
